@@ -1,7 +1,7 @@
 module "ec2_instance" {
   source = "terraform-aws-modules/ec2-instance/aws"
 
-  name                        = "ec2-instance"
+  name                        = "ec2-instance1"
   instance_type               = "t3.large"
   monitoring                  = true
   subnet_id                   = aws_subnet.main.id
